@@ -1,4 +1,4 @@
-## ArtCorner – Full-Stack ERP System
+## ArtCorner – AI & Data-Driven ERP System
 
 # 1. Overview
 ArtCorner is a full-stack ERP system built for small to medium retail businesses.
