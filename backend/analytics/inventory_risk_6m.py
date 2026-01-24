@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 
 DB_URL = os.getenv("DB_URL")
 if not DB_URL:
-    raise RuntimeError("DB_URL is not set. Run: export DB_URL='postgresql+psycopg2://...'")
+    raise RuntimeError("DB_URL is not set.")
 
 engine = create_engine(DB_URL)
 

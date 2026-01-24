@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 
 DB_URL = os.getenv("DB_URL")
 if not DB_URL:
-    raise RuntimeError("DB_URL is not set. Export it first in your terminal.")
+    raise RuntimeError("DB_URL is not set.")
 
 engine = create_engine(DB_URL)
 

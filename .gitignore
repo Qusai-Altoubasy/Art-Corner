@@ -1,0 +1,23 @@
+# Environment variables (VERY IMPORTANT)
+.env
+.env.*
+
+# Python (AI Service)
+__pycache__/
+*.pyc
+.venv/
+
+# Java / Spring Boot
+backend/target/
+backend/*.log
+
+# Flutter
+flutter_app/build/
+flutter_app/.dart_tool/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
